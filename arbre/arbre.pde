@@ -3,9 +3,9 @@ void settings() {
 }
 void setup() {
   float red = random(0,255);
-  float green = random(0,255);
-  float blue = random(0,255);
-  background(red, green, blue);
+//  float green = random(0,255);
+//  float blue = random(0,255);
+  background(red);
   noLoop();
 }
 void draw() {
